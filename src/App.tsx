@@ -218,10 +218,10 @@ export default function App() {
             ))}
           </div>
         </div>
-        <div style={{ position: "absolute", bottom: "2rem", left: "50%", transform: "translateX(-50%)", display: "flex", flexDirection: "column", alignItems: "center", gap: "0.4rem", color: "#334155", fontSize: "0.65rem", letterSpacing: "0.15em" }}>
+        {/* <div style={{ position: "absolute", bottom: "2rem", left: "50%", transform: "translateX(-50%)", display: "flex", flexDirection: "column", alignItems: "center", gap: "0.4rem", color: "#334155", fontSize: "0.65rem", letterSpacing: "0.15em" }}>
           SCROLL
           <div style={{ width: 1, height: 36, background: "linear-gradient(to bottom,#6366f1,transparent)" }} />
-        </div>
+        </div> */}
       </section>
       {/* ABOUT */}
       <section id="about" style={{ padding: "clamp(4rem,8vw,7rem) clamp(1rem,5vw,4rem)" }}>
