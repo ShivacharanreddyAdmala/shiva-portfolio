@@ -136,7 +136,7 @@ export default function App() {
       }
     }, deleting ? 50 : 100);
     return () => clearTimeout(timeout);
-  }, [charIndex, deleting, roleIndex]);
+  }, [charIndex, deleting, roleIndex, roles]);
 
   useEffect(() => {
     const sections = ["home", "about", "skills", "experience", "education", "contact"];
